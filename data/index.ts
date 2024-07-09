@@ -2,7 +2,7 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
-    { name: "Contact", link: "#contact" },
+    { name: "skills", link: "#skills" },
   ];
   
   export const gridItems = [
@@ -213,13 +213,51 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link:"https://github.com/Hamed-Ajaj"
     },
     {
       id: 2,
       img: "/twit.svg",
+      link:"https://github.com/Hamed-Ajaj"
     },
     {
       id: 3,
       img: "/link.svg",
+      link:"https://www.linkedin.com/in/hamed-ajaj19/"
     },
   ];
+
+  export const skills = [
+    {
+      name:"Reactjs",
+      img:"/re.svg"
+    },
+    {
+      name:"Nextjs",
+      img:"/next.svg"
+    },
+    {
+      name:"tailwindCss",
+      img:"/tail.svg"
+    },
+    {
+      name:"Javascript",
+      img:"/js.svg"
+    },
+    {
+      name:"Typescript",
+      img:"/ts.svg"
+    },
+    {
+      name:"Framer Motion",
+      img:"/framer.svg"
+    },
+    {
+      name:"Redux",
+      img:"/redux.svg"
+    },
+    {
+      name:"React Query",
+      img:"/rq.svg"
+    }
+  ]

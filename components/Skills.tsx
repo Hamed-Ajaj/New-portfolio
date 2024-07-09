@@ -1,47 +1,23 @@
-import { HoverEffect } from "./ui/CardHover"; 
+import { skills } from "@/data"
 
-export function Skills() {
+function Skills() {
   return (
-    <div className="w-full mx-auto px-8">
-      <HoverEffect items={projects} />
+    <div className="py-20" id="skills">
+        <h1 className="heading">
+                A Small Selection of{" "}
+                <span className="text-purple">My Skills</span>
+        </h1>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-center mt-10">
+            {skills.map(({name,img}) => (
+                <div key={name} className="flex items-center justify-center ">
+                    <div className="flex items-center justify-center border cursor-pointer border-white/[0.2] rounded-lg bg-black-200 w-40 h-40 hover:shadow-md hover:shadow-gray-300 duration-200">
+                    <img src={img} alt={name} className=" p-2 w-[70%] object-cover" />
+                    </div>
+                </div>
+            ))}
+        </div>
     </div>
-  );
+  )
 }
-export const projects = [
-  {
-    title: "Stripe",
-    description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
-  },
-  {
-    title: "Netflix",
-    description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
-  },
-  {
-    title: "Google",
-    description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
-  },
-  {
-    title: "Meta",
-    description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
-  },
-  {
-    title: "Amazon",
-    description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
-  },
-  {
-    title: "Microsoft",
-    description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
-  },
-];
+
+export default Skills
