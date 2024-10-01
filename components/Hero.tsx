@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Hamed, a Next.js Developer based in Lebanon.
+            Hi! I&apos;m Hamed, a React.js Developer based in Lebanon.
           </p>
 
           <a href="#about">

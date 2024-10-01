@@ -110,6 +110,14 @@ export const navItems = [
       iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/framer.svg"],
       link: "https://hamedajajportfolio.vercel.app/",
     },
+    {
+      id: 6,
+      title: "E-commerce Website",
+      des: "Exclusive is a modern e-commerce website that offers a wide range of products.Built with Next.js and Tailwind CSS,for the backend, I used Firebase.",
+      img: "/projects/exclusive.png",
+      iconLists: ["/next.svg", "/tail.svg", "/js.svg", "/redux.svg"],
+      link: "https://hamedajajportfolio.vercel.app/",
+    },
   ];
   
   export const testimonials = [
