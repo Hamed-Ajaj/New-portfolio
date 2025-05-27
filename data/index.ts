@@ -223,11 +223,7 @@ export const socialMedia = [
     img: "/git.svg",
     link: "https://github.com/Hamed-Ajaj",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-    link: "https://github.com/Hamed-Ajaj",
-  },
+
   {
     id: 3,
     img: "/link.svg",

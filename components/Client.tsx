@@ -1,6 +1,5 @@
 import { companies, testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
 
 const Client = () => {
   return (

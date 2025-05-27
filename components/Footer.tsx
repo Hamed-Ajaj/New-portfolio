@@ -6,7 +6,7 @@ import { Link } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="w-full mb-[100px] pb-10 md:mb-5" id="contact">
+    <footer className="w-full mb-[50px] pb-5 md:pb-10 md:mb-5" id="contact">
       {/* background grid
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
@@ -25,7 +25,7 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a  title="mail" href="mailto:hamedsgmaing@gmail.com">
+        <a title="mail" href="mailto:hamedajaj18@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light mb-4 md:mb-0">
-          Copyright © 2024 Hamed Ajaj
+          Copyright © 2025 Hamed Ajaj
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
