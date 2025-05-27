@@ -1,9 +1,7 @@
-import Hero from "@/components/Hero";
 import "./globals.css";
-
+import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
-import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 import Skills from "@/components/Skills";
 import Navbar from "@/components/navbar";
@@ -17,8 +15,6 @@ export default function Home() {
         <Grid />
         <Skills />
         <RecentProjects />
-        {/* <Client /> */}
-        {/* <Approach /> */}
         <Footer />
       </div>
     </main>

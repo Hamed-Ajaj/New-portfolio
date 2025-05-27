@@ -12,18 +12,15 @@ const Navbar = ({ className }: { className?: string }) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const checkIsMobile = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-    
-    // Initial check
-    checkIsMobile();
-    
-    // Add event listener
-    window.addEventListener('resize', checkIsMobile);
-    
-    // Cleanup
-    return () => window.removeEventListener('resize', checkIsMobile);
+    if (typeof window !== "undefined") {
+      const checkIsMobile = () => {
+        setIsMobile(window.innerWidth < 768);
+      };
+
+      checkIsMobile();
+      window.addEventListener("resize", checkIsMobile);
+      return () => window.removeEventListener("resize", checkIsMobile);
+    }
   }, []);
 
   return (
@@ -102,7 +99,10 @@ const Navbar = ({ className }: { className?: string }) => {
       {/* Mobile Navigation Menu */}
       {mobileMenuOpen && (
         <div className="fixed inset-0 z-40 md:hidden">
-          <div className="fixed inset-0 bg-black/25" onClick={() => setMobileMenuOpen(false)}></div>
+          <div
+            className="fixed inset-0 bg-black/25"
+            onClick={() => setMobileMenuOpen(false)}
+          ></div>
           <nav className="fixed top-24 inset-x-0 mx-auto max-w-sm p-4 bg-white dark:bg-neutral-900 rounded-2xl border border-neutral-200 dark:border-neutral-800 shadow-lg">
             <div className="flex flex-col space-y-3">
               <a
