@@ -46,6 +46,18 @@ const skillsData = [
         level: 80,
         description: "Designing and prototyping user interfaces",
       },
+      {
+        name: "Redux",
+        img: "https://img.icons8.com/?size=100&id=3VGtaw5gCc8T&format=png&color=000000",
+        level: 90,
+        description: "Version control and collaboration",
+      },
+      {
+        name: "Zustand",
+        img: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
+        level: 90,
+        description: "Version control and collaboration",
+      },
     ],
   },
   {
@@ -91,6 +103,12 @@ const skillsData = [
       {
         name: "Git",
         img: "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
+        level: 90,
+        description: "Version control and collaboration",
+      },
+      {
+        name: "Figma",
+        img: "https://www.svgrepo.com/show/303210/figma-1-logo.svg",
         level: 90,
         description: "Version control and collaboration",
       },
@@ -250,17 +268,6 @@ function SkillCard({ skill, category, index }) {
           className="w-[50%] max-h-[60%] object-contain relative z-10 filter drop-shadow-lg"
         />
       </motion.div>
-
-      {/* Skill name */}
-      {/* <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.3 }}
-        className="text-center text-sm mt-2 font-medium"
-      >
-        {skill.name}
-      </motion.p> */}
-
       {/* Tooltip */}
       <AnimatePresence>
         {showTooltip && (

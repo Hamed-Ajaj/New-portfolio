@@ -9,14 +9,14 @@ const RecentProjects = () => {
         A small Selection of{" "}
         <span className="text-purple">recent Projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-16 gap-y-4 md:gap-y-8 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 place-items-center p-4 md:gap-x-16 gap-y-4 md:gap-y-8 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
             className="sm:h-[41rem] h-[32rem] lg:min-h-[33rem]  flex items-center justify-center sm:w-[570px] w-[90vw]"
           >
             <PinContainer title={link} href={link}>
-              <div className="relative flex items-center justify-center sm:w-[570px] sm:h-[40vh] h-[30vh] w-[80vw] overflow-hidden   mb-10">
+              <div className="relative flex items-center justify-center sm:w-[570px] sm:h-[40vh] h-[30vh] w-[80vw] overflow-hidden  mb-10">
                 <div>
                   <img src="/bg.png" alt="bg-img" />
                 </div>
