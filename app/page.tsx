@@ -1,4 +1,3 @@
-import "./globals.css";
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
