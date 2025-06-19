@@ -41,6 +41,10 @@ const skillsData = [
         description: "Crafting responsive designs with utility classes",
       },
       {
+        name: "Expo",
+        img: "/frontend/expo.svg",
+      },
+      {
         name: "Framer",
         img: "fm.svg",
         level: 80,
@@ -111,6 +115,10 @@ const skillsData = [
         img: "https://www.svgrepo.com/show/303210/figma-1-logo.svg",
         level: 90,
         description: "Version control and collaboration",
+      },
+      {
+        name: "Neovim",
+        img: "https://static-00.iconduck.com/assets.00/neovim-icon-512x506-h0mtioa0.png",
       },
     ],
   },

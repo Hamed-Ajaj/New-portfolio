@@ -77,7 +77,7 @@ const Navbar = ({ className }: { className?: string }) => {
 
         {/* Actions */}
         <div className="flex items-center gap-2 md:gap-4">
-          <a href="/Hamed-Ajaj-Resume.pdf" download>
+          <a href="/Hamed Ajaj.pdf" download>
             <Button
               variant={"outline"}
               className="border-white-100 border-2 bg-transparent px-2 md:px-4 text-sm md:text-base"
