@@ -3,9 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata = {
-  title: "Hamed Ajaj | Front End Developer",
-  description:
-    "I am a front end developer with a passion for building beautiful andaccessible web applications. I specialize in React, TypeScript, andTailwind CSS.",
+  title: "Hamed Ajaj | Full Stack Develope",
 };
 
 export default function RootLayout({
