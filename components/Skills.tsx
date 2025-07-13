@@ -98,6 +98,12 @@ const skillsData = [
         level: 70,
         description: "Designing and querying relational databases",
       },
+      {
+        name: "Hono",
+        img: "https://hono.dev/images/logo.svg",
+        level: 70,
+        description: "Designing and querying relational databases",
+      },
     ],
   },
   {
@@ -116,10 +122,10 @@ const skillsData = [
         level: 90,
         description: "Version control and collaboration",
       },
-      {
-        name: "Neovim",
-        img: "https://static-00.iconduck.com/assets.00/neovim-icon-512x506-h0mtioa0.png",
-      },
+      // {
+      //   name: "Neovim",
+      //   img: "https://static-00.iconduck.com/assets.00/neovim-icon-512x506-h0mtioa0.png",
+      // },
     ],
   },
 ];

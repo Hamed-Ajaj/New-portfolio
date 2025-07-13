@@ -85,14 +85,14 @@ const Navbar = ({ className }: { className?: string }) => {
               <span className="font-bold">Resume</span>
             </Button>
           </a>
-          <Link href={"/blogs"}>
-            <Button
-              className="py-1 md:py-2 text-black-100 rounded-lg px-2 md:px-4 bg-white text-sm md:text-base"
-              variant={"default"}
-            >
-              <span className="font-bold">Blog</span>
-            </Button>
-          </Link>
+          {/* <Link href={"/blogs"}> */}
+          {/*   <Button */}
+          {/*     className="py-1 md:py-2 text-black-100 rounded-lg px-2 md:px-4 bg-white text-sm md:text-base" */}
+          {/*     variant={"default"} */}
+          {/*   > */}
+          {/*     <span className="font-bold">Blog</span> */}
+          {/*   </Button> */}
+          {/* </Link> */}
         </div>
       </div>
 
